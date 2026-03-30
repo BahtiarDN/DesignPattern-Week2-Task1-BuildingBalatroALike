@@ -128,6 +128,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RunSession.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IInputGenerator.h" />
+    <ClInclude Include="IRewardRule.h" />
+    <ClInclude Include="IScoringRule.h" />
+    <ClInclude Include="ModifiedRewardRule.h" />
+    <ClInclude Include="RandomInputGenerator.h" />
+    <ClInclude Include="RunSession.h" />
+    <ClInclude Include="ShopSystem.h" />
+    <ClInclude Include="SimpleInputGenerator.h" />
+    <ClInclude Include="SimpleScoringRule.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,18 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    <Filter Include="Run &amp; Main">
+      <UniqueIdentifier>{aa542f1d-86fe-4e41-a393-172a13fb2511}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    <Filter Include="Input Generator">
+      <UniqueIdentifier>{36d51b94-e8bd-47c4-8eeb-9d9e4f5ace2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scoring">
+      <UniqueIdentifier>{4b41335b-015f-45ae-b414-af4ce2212375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reward">
+      <UniqueIdentifier>{e706f8c5-c3da-4ea7-b72c-913898c080c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shop System">
+      <UniqueIdentifier>{da6a80b8-d2a1-49c6-ab34-babe2bb9ef49}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Run &amp; Main</Filter>
     </ClCompile>
+    <ClCompile Include="RunSession.cpp">
+      <Filter>Run &amp; Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RunSession.h">
+      <Filter>Run &amp; Main</Filter>
+    </ClInclude>
+    <ClInclude Include="IInputGenerator.h">
+      <Filter>Input Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomInputGenerator.h">
+      <Filter>Input Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleInputGenerator.h">
+      <Filter>Input Generator</Filter>
+    </ClInclude>
+    <ClInclude Include="ShopSystem.h">
+      <Filter>Shop System</Filter>
+    </ClInclude>
+    <ClInclude Include="IRewardRule.h">
+      <Filter>Reward</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifiedRewardRule.h">
+      <Filter>Reward</Filter>
+    </ClInclude>
+    <ClInclude Include="IScoringRule.h">
+      <Filter>Scoring</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleScoringRule.h">
+      <Filter>Scoring</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
